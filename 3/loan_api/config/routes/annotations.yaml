@@ -1,0 +1,9 @@
+api_v1_loan_calculate_request:
+    type:     rest
+    resource: App\Controller\V1\LoanCalculateRequestController
+    prefix:  /api/v1/loan-calculate-request
+
+api_v1_loan_calculate_result:
+    type:     rest
+    resource: App\Controller\V1\LoanCalculateResultController
+    prefix:  /api/v1/loan-calculate-result
